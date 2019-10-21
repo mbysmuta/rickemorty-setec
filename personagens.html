@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Rick and Morty - Personagens</title>
+</head>
+<body>
+        <header>
+            <div class="container">
+                <nav class="">
+                    <a class="m-0 p-0" href="#"><img src="./imagens/logo.png" alt="" srcset="" width="260px"></a>
+                    
+                    <ul>
+                        <li> <a href="/index.html"> HOME </a> </li>
+                        <li> <a href="/personagens.html"> PERSONAGENS </a> </li>
+                        <li> <a href="/episodios.html"> EPISÓDIOS </a> </li>
+                        <li> <a href="#" > <span id="contribuicao"> CONTRIBUIÇÕES </span> </a> </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main id="page-personagens">
+
+            <div class="title-principal">
+                <h1> PERSONAGENS </h1>
+            </div>
+
+            <section class="personagens container">
+                
+                <div class="personagem p-0">
+                    <img src="./imagens/rick.jpeg" alt="" srcset="" width="254px">
+                    <div class="informacoes">
+                        <p id="name"> Rick Sanchez </p>
+                        <p id="tipo"> HUMANO - HOMEM </p>
+                        
+                        <p class="info mt-2"> Origem: <span> Earth </span> </p>
+                        <p class="info mt-2"> Localização: <span> Earth </span> </p>
+                        <p class="info mt-2"> Status: <span> VIVO </span> </p>
+                        <button class="botao">EPISÓDIOS</button>
+                    </div>
+                </div>  
+            </section>
+            
+        </main>
+        
+        <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="./node_modules/popper.js/dist/popper.min.js"></script>
+        <script src="js/main.js"></script>
+</body>
+</html>
